@@ -1,0 +1,30 @@
+{
+  "name": "express-rate-limit-welding-process",
+  "version": "1.0.0",
+  "description": "Exercise to aply rate limits",
+  "keywords": [
+    "API",
+    "RATELIMIT",
+    "NODEJS"
+  ],
+  "homepage": "https://github.com/lestergarcia711/express-rate-limit-welding-process#readme",
+  "bugs": {
+    "url": "https://github.com/lestergarcia711/express-rate-limit-welding-process/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lestergarcia711/express-rate-limit-welding-process.git"
+  },
+  "license": "ISC",
+  "author": "lestergarcia711",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1"
+  }
+}
